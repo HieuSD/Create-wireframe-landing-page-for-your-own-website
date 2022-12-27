@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125em;
+  font-weight: 300;
+}
+header,
+footer,
+#return{
+  background: #6F9B3C;
+}
+.container{
+  padding: 5rem 0;
+}
+figure {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  transition: 1s;
+}
+a:hover {
+  color: #264E49;
+}
+.btn-outline-warning{
+  color: #A5CF61;
+  border-color: #A5CF61;
+}
+.btn-outline-warning:hover{
+  background-color: #A5CF61;
+  border-color: #A5CF61;
+}
+.btn-success{
+  background-color: #264E49;
+}
+.btn-outline-success{
+  color: #264E49;
+  border-color: #264E49;
+}
+.btn-outline-success:hover{
+  background-color: #264E49;
+  border-color: #264E49;
+}
+/* paragraph */
+h1,
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+h1 {
+  color: #A5CF61;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.menu-title{
+  color: #A5CF61;
+  padding: .2rem .5rem;
+  background-color: rgba(38, 78, 73, .8);
+}
+.logo {
+  width: 80px;
+}
+/* navbar */
+.collapse .nav-link {
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.collapse .nav-item .nav-link:hover,
+.collapse .nav-item .active {
+  color: #264E49;
+}
+.user i {
+  font-size: 1.5rem;
+}
+header .container{
+  padding: 0;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  position: relative;
+  background: #264E49;
+}
+.carousel-img {
+  object-fit: cover;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 500px;
+}
+/* menu */
+#menu img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+.menu-card{
+  position: relative;
+}
+.menu-title{
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  margin: 0;
+}
+/* shop */
+#shop .card img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+#shop .nav-pills img {
+  width: 100px;
+  object-fit: cover;
+}
+#shop .nav-link {
+  color: #000;
+}
+#shop .nav-item .active {
+  background-color: #264E49;
+}
+.shop-card{
+  border: none;
+}
+.shop-card img{
+  padding: 1rem;
+  border-radius: 10%;
+}
+.shop-title{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+/* return */
+/* feedbacks */
+#feedbacks img {
+  width: 100%;
+  object-fit: cover;
+}
