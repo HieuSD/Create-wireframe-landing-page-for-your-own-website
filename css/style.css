@@ -9,14 +9,14 @@ html {
 }
 header,
 footer,
-#return{
-  background: #C8B88A;
+#return {
+  background: #c8b88a;
 }
-.container{
+.container {
   margin: 5rem auto;
 }
 header .container,
-footer .container{
+footer .container {
   margin: 0 auto;
 }
 figure {
@@ -28,39 +28,39 @@ a {
   transition: 1s;
 }
 a:hover {
-  color: #264E49;
+  color: #264e49;
 }
-.btn{
+.btn {
   text-transform: uppercase;
 }
-.btn-outline-warning{
-  color: #C8B88A;
-  border-color: #C8B88A;
+.btn-outline-warning {
+  color: #c8b88a;
+  border-color: #c8b88a;
 }
-.btn-outline-warning:hover{
-  background-color: #C8B88A;
-  border-color: #C8B88A;
+.btn-outline-warning:hover {
+  background-color: #c8b88a;
+  border-color: #c8b88a;
 }
-.btn-success{
-  background-color: #264E49;
+.btn-success {
+  background-color: #264e49;
 }
-.btn-outline-success{
-  color: #264E49;
-  border-color: #264E49;
+.btn-outline-success {
+  color: #264e49;
+  border-color: #264e49;
 }
-.btn-outline-success:hover{
-  background-color: #264E49;
-  border-color: #264E49;
+.btn-outline-success:hover {
+  background-color: #264e49;
+  border-color: #264e49;
 }
 /* paragraph */
 h1,
 h2 {
-  color: #264E49;
+  color: #264e49;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
 }
 h1 {
-  color: #C8B88A;
+  color: #c8b88a;
   font-size: 4rem;
 }
 h2 {
@@ -68,13 +68,13 @@ h2 {
   margin-bottom: 2rem;
   text-align: center;
 }
-p{
+p {
   margin: 0;
 }
-.menu-title{
-  color: #C8B88A;
-  padding: .2rem .5rem;
-  background-color: rgba(38, 78, 73, .8);
+.menu-title {
+  color: #c8b88a;
+  padding: 0.2rem 0.5rem;
+  background-color: rgba(38, 78, 73, 0.8);
 }
 .logo {
   width: 80px;
@@ -87,7 +87,7 @@ p{
 }
 .collapse .nav-item .nav-link:hover,
 .collapse .nav-item .active {
-  color: #264E49;
+  color: #264e49;
 }
 .user i {
   font-size: 1.5rem;
@@ -102,7 +102,7 @@ p{
 }
 .carousel-item {
   position: relative;
-  background: #264E49;
+  background: #264e49;
 }
 .carousel-img {
   object-fit: cover;
@@ -120,10 +120,10 @@ p{
   object-fit: cover;
   padding-bottom: 20px;
 }
-.menu-card{
+.menu-card {
   position: relative;
 }
-.menu-title{
+.menu-title {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
@@ -134,8 +134,8 @@ p{
   width: 200px;
   object-fit: cover;
 }
-.shop-title{
-  color: #264E49;
+.shop-title {
+  color: #264e49;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -145,23 +145,29 @@ p{
   object-fit: cover;
 }
 #shop .nav-item .active {
-  background: #C8B88A;
+  background: #c8b88a;
 }
-.product-card{
+.product-card {
   border: none;
 }
-.product-card img{
-  padding: 1rem;
+.product-card img {
   border-radius: 10%;
 }
-.product-title{
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap; 
-    text-overflow: ellipsis;
+.product-body{
+  padding: 1rem;
+}
+.product-title {
+  margin-bottom: .5rem;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.product-price{
+  margin-bottom: .5rem;
 }
 /* return */
-#return .container{
+#return .container {
   padding: 5rem 0;
 }
 /* feedbacks */
@@ -170,20 +176,20 @@ p{
   object-fit: cover;
   border-radius: 10%;
 }
-.fb-see-more{
+.fb-see-more {
   margin: 2rem 0;
 }
 /* contact */
-.contact-us{
+.contact-us {
   text-align: center;
 }
-.contact-icon{
+.contact-icon {
   font-size: 2rem;
 }
 /* boder */
-.line{
+.line {
   height: 10px;
   width: 25%;
   margin: 3rem auto;
-  border-bottom: 5px dotted #264E49;
+  border-bottom: 5px dotted #264e49;
 }
